@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="keywords"
+      content="Iulian Ghiurca,web developer,proiecte,website,website de prezentare, aplicatie"
+    />
+    <meta
+      name="description"
+      content="Salut! Eu sunt Ghiurca Iulian si sunt incepator ca Web Developer.
+    Imi place sa creez site-uri"
+    />
+    <meta name="author" content="Iulian Ghiurca" />
+    <meta name="robots" content="index,follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Kaushan+Script|Poppins&display=swap"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Responsive Navbar</title>
+  </head>
+  <body>
+    <!------Navigation---------->
+    <header>
+      <div class="navbar">
+        <div class="logo">
+          <a href="#">IulianG <i class="fa fa-pen-nib"></i></a>
+        </div>
+        <ul class="links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="#" class="action_btn">Get Started</a>
+        <div class="toggle_btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+      <div class="dropdown_menu">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#" class="action_btn">Get Started</a></li>
+      </div>
+    </header>
+    <!---x---Navigation----x------>
+
+    <!------Main Site Section---------->
+    <main>
+      <!------Site title---------->
+      <section id="hero">
+        <h1>Welcome to my Website</h1>
+        <p>
+          If you find a road without obstacles,<br />
+          that road probably leads nowhere(John F. Kennedy).
+        </p>
+      </section>
+      <!----x--Site title---x------->
+
+      <!-----Section About me------->
+      <section class="about" id="about">
+        <h2 class="heading">About Me</h2>
+        <div class="about-img">
+          <img src="img/about.jpg" alt="" />
+          <span class="circle-spin"></span>
+        </div>
+        <div class="about-content">
+          <h3>Frontend Developer</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam neque
+            dolorum nulla. Mollitia corporis dignissimos praesentium sed, id
+            quas explicabo! Nulla ratione aperiam repudiandae culpa itaque harum
+            veniam quisquam dolores asperiores quos, iste nisi neque quasi amet
+            enim in, ex laborum illo cum adipisci dolorem minima architecto quo.
+            Suscipit, maxime!
+          </p>
+        </div>
+      </section>
+      <!---x--Section About me--x----->
+
+      <!-----Section Services------->
+
+      <section class="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="project-container">
+          <div class="project">
+            <div class="project-details">
+              <p>
+                Acest proiect este un site web de prezentare pentru un hotel
+              </p>
+              <a href="#" target="_blank" class="btn-outline">Vezi proiectul</a>
+            </div>
+            <img src="img/hotel.jpg" alt="website de prezentare hotel" />
+            <p class="project-title">Website de prezentare pentru un hotel</p>
+          </div>
+          <div class="project">
+            <div class="project-details">
+              <p>Aceasta este o aplicatie de online de tip trivia</p>
+              <a href="#" target="_blank" class="btn-outline">Vezi proiectul</a>
+            </div>
+            <img src="img/trivia.jpg" alt="imagini aplicatie trivia" />
+            <p class="project-title">Aplicatie web multiplayer de tip trivia</p>
+          </div>
+          <div class="project">
+            <div class="project-details">
+              <p>
+                Acest proiect este un site web de prezentare ptr un restaurant
+                local
+              </p>
+              <a href="#" target="_blank" class="btn-outline">Vezi proiectul</a>
+            </div>
+            <img
+              src="img/restaurant.jpg"
+              alt="website de prezentare restaurant"
+            />
+            <p class="proiect-title">
+              Website de prezentare pentru un restaurant
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--x---Section Services---x---->
+    </main>
+    <!--x----Main Site Section-----x----->
+    <script src="js/site.js"></script>
+  </body>
+</html>
